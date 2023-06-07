@@ -11,7 +11,7 @@ const res=await fetch(url)
 const data=await res.json()
 time= await data.datetime
 
-document.getElementById("time").innerText=`${place} = ${time} ${data.timezone_abbreviation} `
+document.getElementById("time").innerText=`${place} = ${time} `
 
 }
 
